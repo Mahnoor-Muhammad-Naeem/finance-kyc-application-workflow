@@ -59,3 +59,32 @@ This view represents an application that has been submitted and is awaiting assi
 * **Platform:** Designed using a platform such as ClickUp, but the principles are transferable.
 * **Naming Convention:** Task names (`Form Submission - #YYYY-MM-DDTHH:MM:SS`) use a timestamp for unique identification and easy tracking.
 * **Goal:** To transform a complex, document-heavy process into a trackable, transparent, and manageable workflow.
+  
+---
+
+## ❓ Project Q&A
+
+This section addresses key questions regarding the project's necessity, purpose, and documentation standards.
+
+### **1. What is the fundamental purpose of this project?**
+
+The fundamental purpose is to **standardize, track, and streamline the KYC application review process** for the Finance team. It acts as a mandatory workflow and audit trail, ensuring every application is properly vetted for compliance before being approved.
+
+### **2. Why is this project important (Does it have purpose)?**
+
+Yes, the project has a crucial purpose driven by regulatory requirements:
+
+* **Compliance:** KYC is mandatory for financial institutions to prevent **money laundering, terrorist financing, and fraud**. This workflow ensures all regulatory steps are followed and documented.
+* **Efficiency:** It significantly reduces the time taken to onboard new customers by providing immediate transparency and reducing delays and rework.
+* **Auditability:** It provides management and auditors with a clear, timestamped record of every action taken on an application.
+
+### **3. What are the recommended names for the accompanying screenshots?**
+
+For clarity and documentation purposes, the original screenshot files were renamed to be descriptive of their content, as used in this document:
+
+| Original File Name (Examples) | New Recommended File Name | Content Shown |
+| :--- | :--- | :--- |
+| `finance.png`, `finance3.png` | `workspace-overview.png` | The main Space dashboard, including the Workload chart. |
+| `inprogress.png`, `inprogress2.png` | `kyc-list-view.png` | The List View showing tasks grouped by `TO DO` and `IN PROGRESS`. |
+| `form_submission.png`, `status_inprogress.png` | `task-inprogress-details.png` | The detailed view of an individual task currently under review. |
+| `todo.png` | `task-todo-details.png` | The detailed view of an application awaiting review. |
