@@ -20,7 +20,27 @@ The main dashboard provides an executive-level overview of the team's workload, 
 ![Finance Space Overview showing workload and navigation](workspace-overview2.png)
 ![Finance Space Overview showing workload and navigation](workspace-overview3.png)
 
-### 2. KYC Applications List View
+---
+
+### 2. KYC Applications Board View
+
+This is the **visual Kanban-style board** that represents the real-time status of all KYC applications.  
+Tasks are separated into columns (`TO DO`, `IN PROGRESS`, `COMPLETE`) and can be dragged between stages.
+
+**Key features in this view include:**
+* **Task Cards:** Each card represents a customer form submission.
+* **Priorities & Deadlines:** Clearly displayed on each card (`High`, `Normal`, `Urgent`) with due dates.
+* **Attachments & Assignee:** Visible at a glance for easy tracking.
+* **Columns:**  
+  - **TO DO** → New applications awaiting review.  
+  - **IN PROGRESS** → Applications under active review.  
+  - **COMPLETE** → Fully reviewed and approved applications.  
+
+![KYC Applications Board View with TO DO, IN PROGRESS, and COMPLETE columns](board.png)
+
+---
+
+### 3. KYC Applications List View
 
 This is the primary operational view for the team. Tasks are grouped by their current **Status** (`IN PROGRESS` or `TO DO`), allowing for easy prioritization and assignment.
 
@@ -32,7 +52,9 @@ This is the primary operational view for the team. Tasks are grouped by their cu
 ![KYC Applications List View grouped by Status and showing custom fields](kyc-list-view.png)
 ![KYC Applications List View grouped by Status and showing custom fields](kyc-list-view2.png)
 
-### 3. Task Detail: In Progress Status
+---
+
+### 4. Task Detail: In Progress Status
 
 The detailed task view shows the complete context of an application actively under review.
 
@@ -45,7 +67,9 @@ The detailed task view shows the complete context of an application actively und
 ![Detailed view of a Form Submission task currently In Progress](task-inprogress-details.png)
 ![Detailed view of a Form Submission task currently In Progress](task-inprogress-details2.png)
 
-### 4. Task Detail: To Do Status
+---
+
+### 5. Task Detail: To Do Status
 
 This view represents an application that has been submitted and is awaiting assignment and initial review.
 
@@ -92,3 +116,4 @@ For clarity and documentation purposes, the original screenshot files were renam
 | `inprogress.png`, `inprogress2.png` | `kyc-list-view.png` | The List View showing tasks grouped by `TO DO` and `IN PROGRESS`. |
 | `form_submission.png`, `status_inprogress.png` | `task-inprogress-details.png` | The detailed view of an individual task currently under review. |
 | `todo.png` | `task-todo-details.png` | The detailed view of an application awaiting review. |
+| `board.png` | `board.png` | The Kanban-style Board View showing TO DO, IN PROGRESS, COMPLETE columns. |
