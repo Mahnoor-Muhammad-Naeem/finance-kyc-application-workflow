@@ -17,6 +17,8 @@ The workflow is established within a dedicated **Finance Space** and utilizes a 
 The main dashboard provides an executive-level overview of the team's workload, resource allocation, and key recent activity. The **Workload by Status** chart is critical for capacity planning.
 
 ![Finance Space Overview showing workload and navigation](workspace-overview.png)
+![Finance Space Overview showing workload and navigation](workspace-overview2.png)
+![Finance Space Overview showing workload and navigation](workspace-overview3.png)
 
 ### 2. KYC Applications List View
 
@@ -28,6 +30,7 @@ This is the primary operational view for the team. Tasks are grouped by their cu
 * **Priority:** Clearly marked priority (Normal, High, Urgent) on each task.
 
 ![KYC Applications List View grouped by Status and showing custom fields](kyc-list-view.png)
+![KYC Applications List View grouped by Status and showing custom fields](kyc-list-view2.png)
 
 ### 3. Task Detail: In Progress Status
 
@@ -40,6 +43,7 @@ The detailed task view shows the complete context of an application actively und
 * **Custom Fields:** Options selected for `Approval Level` and `Attachment`.
 
 ![Detailed view of a Form Submission task currently In Progress](task-inprogress-details.png)
+![Detailed view of a Form Submission task currently In Progress](task-inprogress-details2.png)
 
 ### 4. Task Detail: To Do Status
 
